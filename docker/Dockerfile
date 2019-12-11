@@ -2,7 +2,7 @@
 FROM node:13.1.0 as node
 WORKDIR /app
 COPY package.json /app/
-RUN npm install
+RUN npm install --loglevel=error
 COPY ./ /app/
 RUN npm run build -- --prod --aot
 

@@ -27,8 +27,8 @@ export const environment = {
   readerVersionUrl: '/reader/version',
   readerChannelsUrl: '/reader/channels',
 
-  grafanaHome: 'http://localhost:3001/?orgId=1&kiosk',
-  jaegerHome: 'http://localhost:16686/search',
+  grafanaHome: 'http://54.171.128.181:3001/?orgId=1&kiosk',
+  jaegerHome: 'http://54.171.128.181:16686/search',
   loraServer: 'http://lora.mainflux.io/#/',
-  nodeRedHome: 'http://localhost:1880',
+  nodeRedHome: 'http://54.171.128.181:1880',
 };
